@@ -18,7 +18,7 @@ export default function Chat() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: 'Inter, sans-serif', height: '100%',color:'black' }}>
-      <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Chat Langchain</h1>
+      <h1 style={{ color:'white', fontSize: '2.5rem', marginBottom: '1rem' }}>Chat Langchain</h1>
       <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', alignItems: 'flex-start', height: 'calc(100% - 180px)', width: '100%', padding: '1rem', backgroundColor: '#22272c', borderRadius: '8px', overflowY: 'auto', boxShadow: '0px 0px 20px rgba(0, 0, 0, 0.2)' }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', maxWidth: '80%', backgroundColor: '#fff', borderRadius: '8px', padding: '1rem', marginBottom: '0.5rem' }}>
           <p style={{ fontSize: '1.2rem', lineHeight: '1.5', margin: '0', padding: '0' }}>Hi there! How can I help you today?</p>
